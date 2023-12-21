@@ -1,0 +1,29 @@
+h1 {
+  font-style: italic;
+  font-weight: bold;
+}
+
+body {
+  display: inline-block;
+  background-color: rgb(87, 82, 82);
+  color: white;
+}
+
+input {
+  border-radius: 10px;
+}
+
+button {
+  background-color: green;
+  border-radius: 10px;
+  box-shadow: 5px;
+}
+
+ul {
+  font-size: larger;
+}
+
+.concluida {
+  text-decoration: line-through 3px solid red;
+  font-style: italic;
+}
