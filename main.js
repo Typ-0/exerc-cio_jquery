@@ -1,6 +1,6 @@
 $(document).ready(function () {
     $('#formulario').submit(function (event) {
-        event.preventDefault(); 
+        event.preventDefault();
         var tarefa = $('#inputTarefa').val();
         $('#listaTarefas').append('<li>' + tarefa + '</li>');
         $('#inputTarefa').val('');
